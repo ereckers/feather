@@ -20,15 +20,16 @@ This theme makes use of and the following frameworks, libraries, and resources:
 
 ### Template Files:
 
-This theme includes the following template files:
+This theme includes the following template files. The naming convention that we're following is to prepend custom templates with `template-`:
 
 * archive.php
 * author.php
 * index.php
 * page.php
 * single.php
-* template-no-container.php
-* template-single-column.php
+* template-1col.php
+* template-fullwidth.php
+* template-sitemap.php
 
 ### Widgets:
 
