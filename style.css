@@ -67,3 +67,22 @@ li.comment {
 	padding: 15px;
 	border: 1px solid #EDEDED;
 }
+
+/*
+ * WordPress Required
+ */
+/* Alignment */
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}

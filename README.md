@@ -1,5 +1,4 @@
-Feather
-====================
+# Feather
 
 Feather is a WordPress starter theme based on Bootstrap and influenced by Roots and Underscores. Feather is simple and easy to use and employs the simplest implementations of Twitter's Bootstrap3, WordPress Codex, and libraries from the popular WordPress starter themes Roots and Underscores.
 
@@ -60,12 +59,12 @@ We defer to popular and wellregarded plugins to extend functionality withing the
 
 Plugin Name | Description
 ------------ | -------------
-WordPress SEO | seo, breadcrumbs, sitemaps
-Jetpack | tats, subscriptions, carousel, related posts, sharing, contact form, widget visbility, custom css, shortcode embeds, extra sidebar widgets, monitor, enhanced distribution
+WordPress SEO | SEO, Breadcrumbs, Sitemap solution.
+Jetpack | Stats, subscriptions, carousel, related posts, sharing, contact form, widget visbility, custom css, shortcode embeds, extra sidebar widgets, monitor, enhanced distribution.
 WP Minify | JS and CSS concantenation and minification. https://wordpress.org/plugins/wp-minify/
-WP Paginate | pagination
-Custom Field Suite | (Field Groups) custom fields
-Custom Content Type Manager | (Custom Content Types) post types (use field groups for custom fields)
+WP Paginate | Pagination
+Custom Field Suite | Appears as (Field Groups) and allows for creating custom fields. Basic port of ACM with available repeatable fields functionality.
+Custom Content Type Manager | (Custom Content Types) post types (use field groups for custom fields).
 
 ### Optional Plugins:
 
@@ -73,12 +72,12 @@ A documenation of plugins we have made use of to achieve certain requirements an
 
 Plugin Name | Description
 ------------ | -------------
-Gravity Forms | developer license
-Configure SMTP | smtp
-Google Analytics for WordPress | analytics
-Posts 2 Posts | 
-Members | role management
-WP Session Manager | front end session management
+Gravity Forms | Forms creation. Requires a License to use and replaces Contact Form & (which is a great free option).
+Configure SMTP | SMTP Manager. For times in which your server does not provide a mail server.
+Google Analytics for WordPress | Google Analytics.
+Posts 2 Posts | Create many-to-many relationships between posts of any type.
+Members | A user, role, and content management plugin.
+WP Session Manager | Adds $_SESSION-like functionality to WordPress.
 
 ### Reference:
 
