@@ -1,10 +1,10 @@
 <?php
 /**
- * Page template without Bootstrap .container class. Also does not print <h1>heading</h1>.
+ * Page template without Bootstrap .container class. Does not print <h1>heading</h1>.
  *
  * @package feather
  *
- * Template Name: No Container Page
+ * Template Name: Full Width Container
  */
 
 get_header(); ?>

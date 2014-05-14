@@ -20,6 +20,24 @@ function _s_wp_title( $title, $sep ) {
 }
 add_filter( 'wp_title', '_s_wp_title', 10, 2 );
 
+/*
+ * Limit Number of Months in WordPress Archives Widget
+ * http://wordpress.stackexchange.com/questions/19945/archive-widget-limit-number-of-months-to-12
+ */
+function feather_limit_archives_months( $args ) {
+	$args['limit'] = ARCHIVE_WIDGET_MONTH_LIMIT;
+	return $args;
+}
+add_filter( 'widget_archives_args', 'feather_limit_archives_months' );
+
+/**
+ * strtolower WordPress SEO meta keywords
+ */
+function strtolower_wpseo_metakeywords( $content ) {
+	return strtolower( $content );
+}
+add_filter('wpseo_metakeywords', 'strtolower_wpseo_metakeywords');
+
 /**
  * Get the parent slug/post_name
  */
@@ -29,14 +47,6 @@ function the_parent_slug() {
     $post_data = get_post( $post->post_parent );
     return $post_data->post_name;
 }
-
-/**
- * strtolower WordPress SEO meta keywords
- */
-function strtolower_wpseo_metakeywords( $content ) {
-	return strtolower( $content );
-}
-add_filter('wpseo_metakeywords', 'strtolower_wpseo_metakeywords');
 
 /**
  * Wrap print_r in preformatted text tags
