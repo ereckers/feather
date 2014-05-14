@@ -97,3 +97,9 @@ require get_template_directory() . '/lib/roots/utils.php';
 require get_template_directory() . '/lib/roots/cleanup.php';
 require get_template_directory() . '/lib/roots/titles.php';
 
+/**
+ * Allow Text Widgets to execute shortcodes
+ */
+//add_filter('widget_text', 'do_shortcode');
+
+

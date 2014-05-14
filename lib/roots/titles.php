@@ -14,7 +14,7 @@ function feather_theme_title() {
     if ($term) {
       return apply_filters('single_term_title', $term->name);
     } elseif (is_tag()) {
-      return single_tag_title( __('Tag Archives: ', 'feather'), false );
+      return ucwords( single_tag_title( __('', 'feather'), false ) );
     } elseif (is_post_type_archive()) {
       return apply_filters('the_title', get_queried_object()->labels->name);
     } elseif (is_day()) {

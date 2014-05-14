@@ -39,6 +39,14 @@ function strtolower_wpseo_metakeywords( $content ) {
 add_filter('wpseo_metakeywords', 'strtolower_wpseo_metakeywords');
 
 /**
+ * ucwords Singer Term titles
+ */
+function ucfirst_single_term_title( $content ) {
+	return ucwords( $content );
+}
+//add_filter( 'single_term_title', 'ucfirst_single_term_title' );
+
+/**
  * Get the parent slug/post_name
  */
 function the_parent_slug() {
