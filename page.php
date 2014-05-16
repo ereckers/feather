@@ -20,7 +20,7 @@ get_header(); ?>
 		</aside><!--/ .sidebar -->
 
 		<main class="main col-sm-9" role="main">
-			<?php get_template_part('templates/page', 'header'); ?>
+			<?php get_template_part( 'templates/page', 'header' ); ?>
 			<?php get_template_part( 'templates/content', 'page' ); ?>
 		</main><!--/ .main -->
 

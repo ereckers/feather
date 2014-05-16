@@ -36,11 +36,11 @@ function feather_theme_setup() {
 
 	// Enable support for Post Thumbnails, and declare two sizes.
 	add_theme_support( 'post-thumbnails' );
-	// set_post_thumbnail_size(150, 150, false);
-	// add_image_size('category-thumb', 300, 9999); // 300px wide (and unlimited height)
+	// set_post_thumbnail_size( 150, 150, false );
+	// add_image_size( 'category-thumb', 300, 9999 ); // 300px wide (and unlimited height)
 
 	// Add post formats (http://codex.wordpress.org/Post_Formats)
-	// add_theme_support('post-formats', array('aside', 'gallery', 'link', 'image', 'quote', 'status', 'video', 'audio', 'chat'));
+	// add_theme_support( 'post-formats', array( 'aside', 'gallery', 'link', 'image', 'quote', 'status', 'video', 'audio', 'chat' ) );
 
 	// Register menu locations for creating menus with wp_nav_menu().
 	register_nav_menus( array(
@@ -71,7 +71,7 @@ require get_template_directory() . '/lib/config.php';
  * Load utils
  *
  * This includes functions lifted from Roots and Underscores themes that 
- * couldn't be included with the main file, needed customizations, or both.
+ * couldn't be added by including the main file, needed customizations, or both.
  */
 require get_template_directory() . '/lib/utils.php';
 
@@ -100,6 +100,6 @@ require get_template_directory() . '/lib/roots/titles.php';
 /**
  * Allow Text Widgets to execute shortcodes
  */
-//add_filter('widget_text', 'do_shortcode');
+//add_filter( 'widget_text', 'do_shortcode' );
 
 

@@ -2,7 +2,7 @@
 /**
  * Enqueue scripts and styles for the front end.
  *
- * We load many things from from CDNs for faster development.
+ * We load many things from CDNs for faster development.
  * Simply point to and load local scripts to override this behavior
  * 
  * Borrows heavily from Roots lib/scripts.php

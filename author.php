@@ -15,8 +15,6 @@ get_header(); ?>
 
 		<?php if ( have_posts() ) : ?>
 
-			<?php //get_template_part('templates/page', 'header'); ?>
-
 			<header class="archive-header">
 				<h1 class="archive-title">
                     <?php

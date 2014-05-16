@@ -39,7 +39,7 @@ function strtolower_wpseo_metakeywords( $content ) {
 add_filter('wpseo_metakeywords', 'strtolower_wpseo_metakeywords');
 
 /**
- * ucwords Singer Term titles
+ * ucwords Term titles
  */
 function ucfirst_single_term_title( $content ) {
 	return ucwords( $content );
@@ -64,6 +64,14 @@ function the_parent_slug() {
 function print_pre($value) {
 	echo "<pre>",print_r($value, true),"</pre>";
 }
+
+/**
+ * Extras for wp_head
+ */
+function put_google_noarchive() {
+	echo '<meta name="googlebot" content="noarchive">' . PHP_EOL;
+}
+//add_filter( 'wp_head', 'put_google_noarchive' );
 
 /**
  * Simply print active template for debugging
