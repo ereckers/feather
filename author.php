@@ -54,6 +54,8 @@ get_header(); ?>
 
 			<?php endwhile; ?>
 
+			<?php get_template_part( 'templates/pagination' ); ?>
+
 		<?php else : ?>
 			<?php get_template_part( 'templates/content', 'none' ); ?>
 		<?php endif; ?>
