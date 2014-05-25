@@ -27,7 +27,7 @@ get_header(); ?>
                          */
                         the_post();
 
-                        printf( __( 'All posts by %s', 'twentyfourteen' ), get_the_author() );
+                        printf( __( 'All posts by %s', THEME_TEXTDOMAIN ), get_the_author() );
                     ?>
                 </h1>
 				<?php //get_template_part( 'templates/author-meta' ); ?>

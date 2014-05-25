@@ -25,7 +25,7 @@ add_filter( 'wp_title', '_s_wp_title', 10, 2 );
  * http://wordpress.stackexchange.com/questions/19945/archive-widget-limit-number-of-months-to-12
  */
 function feather_limit_archives_months( $args ) {
-	$args['limit'] = ARCHIVE_WIDGET_MONTH_LIMIT;
+	$args['limit'] = ARCHIVE_WIDGET_LIMIT;
 	return $args;
 }
 add_filter( 'widget_archives_args', 'feather_limit_archives_months' );

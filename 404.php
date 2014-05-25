@@ -15,13 +15,13 @@ get_header(); ?>
 			<?php get_template_part( 'templates/page', 'header' ); ?>
 
 			<div class="alert alert-warning">
-				<?php _e( 'Sorry, but the page you were trying to view does not exist.', 'roots' ); ?>
+				<?php _e( 'Sorry, but the page you were trying to view does not exist.', THEME_TEXTDOMAIN ); ?>
 			</div>
 
-			<p><?php _e( 'It looks like this was the result of either:', 'roots' ); ?></p>
+			<p><?php _e( 'It looks like this was the result of either:', THEME_TEXTDOMAIN ); ?></p>
 			<ul>
-				<li><?php _e( 'a mistyped address', 'roots' ); ?></li>
-				<li><?php _e( 'an out-of-date link', 'roots' ); ?></li>
+				<li><?php _e( 'a mistyped address', THEME_TEXTDOMAIN ); ?></li>
+				<li><?php _e( 'an out-of-date link', THEME_TEXTDOMAIN ); ?></li>
 			</ul>
 
 			<?php get_search_form(); ?>

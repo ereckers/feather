@@ -29,7 +29,7 @@ function feather_theme_setup() {
 	 * replace to change 'feather' to the name of your theme in all
 	 * template files.
 	 */
-	//load_theme_textdomain( 'feather', get_template_directory() . '/languages' );
+	//load_theme_textdomain( THEME_TEXTDOMAIN, get_template_directory() . '/languages' );
 
 	// Add RSS feed links to <head> for posts and comments.
 	add_theme_support( 'automatic-feed-links' );
@@ -44,9 +44,9 @@ function feather_theme_setup() {
 
 	// Register menu locations for creating menus with wp_nav_menu().
 	register_nav_menus( array(
-		'primary' => __( 'Primary Menu', 'feather' ),
-		'secondary' => __( 'Secondary Menu', 'feather' ),
-		'footer' => __( 'Footer Menu', 'feather' )
+		'primary' => __( 'Primary Menu', THEME_TEXTDOMAIN ),
+		'secondary' => __( 'Secondary Menu', THEME_TEXTDOMAIN ),
+		'footer' => __( 'Footer Menu', THEME_TEXTDOMAIN )
 	) );
 
 }

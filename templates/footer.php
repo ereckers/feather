@@ -3,9 +3,9 @@
 		<div class="site-info">
 			<p>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?></p>
 			<p>
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', '_s' ) ); ?>"><?php printf( __( 'Proudly powered by %s', '_s' ), 'WordPress' ); ?></a>
+			<a href="<?php echo esc_url( __( 'http://wordpress.org/', THEME_TEXTDOMAIN ) ); ?>"><?php printf( __( 'Proudly powered by %s', THEME_TEXTDOMAIN ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'feather' ), '<a href="https://github.com/ereckers/feather">Feather</a>', '<a href="http://www.redbridgenet.com/" rel="designer">Red Bridge Internet</a>' ); ?>
+			<?php printf( __( 'Theme: %1$s by %2$s.', THEME_TEXTDOMAIN ), '<a href="https://github.com/ereckers/feather">Feather</a>', '<a href="http://www.redbridgenet.com/" rel="designer">Red Bridge Internet</a>' ); ?>
 			<p>
 		</div><!-- .site-info -->
 	</div><!-- .container -->
