@@ -2,6 +2,9 @@
 /**
  * Filters wp_title to print a neat <title> tag based on what is being viewed.
  *
+ * This is BASIC title filtering. We rely on the plugin WordPress SEO for 
+ * better and more advanced title handling.
+ *
  * @param string $title Default title text for current view.
  * @param string $sep Optional separator.
  * @return string The filtered title.
