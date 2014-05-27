@@ -2,7 +2,7 @@
 /**
  * Sidebar for 2 column page templates
  *
- * @package feather
+ * @package Feather
  */
 ?>
 <div id="secondary" class="widget-area" role="complementary">

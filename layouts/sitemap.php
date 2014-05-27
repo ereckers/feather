@@ -2,7 +2,7 @@
 /**
  * Generates a full sitemap page.
  *
- * @package feather
+ * @package Feather
  *
  * Template Name: Sitemap
  */

@@ -2,7 +2,7 @@
 /**
  * Single column page template without sidebars.
  *
- * @package feather
+ * @package Feather
  *
  * Template Name: Single Column Page
  */

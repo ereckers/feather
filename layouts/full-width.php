@@ -2,7 +2,7 @@
 /**
  * Page template without Bootstrap .container class. Does not print <h1>heading</h1>.
  *
- * @package feather
+ * @package Feather
  *
  * Template Name: Full Width Container
  */
