@@ -29,7 +29,7 @@
 <![endif]-->
 
 </head>
-<body class="<?php body_class(); ?>">
+<body <?php body_class(); ?>>
 
 <?php get_template_part( 'templates/header' ); ?>
 
