@@ -4,7 +4,7 @@
  * sets up the supported features, default actions, and default filters.
  *
  * @package Feather
- * @version 1.0.0
+ * @version 1.0.1
  * @author Ed Reckers <ed@redbridgenet.com>
  * @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  */

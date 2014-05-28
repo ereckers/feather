@@ -26,7 +26,7 @@ function feather_theme_scripts() {
 	//wp_enqueue_style( 'fontawesome', '//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css', array(), null );
 
 	// Load our main stylesheet.
-	wp_enqueue_style( 'main', get_stylesheet_uri(), false, '1.0.0' );
+	wp_enqueue_style( 'main', get_stylesheet_uri(), false, '1.0.1' );
 
 	/**
 	 * Load Scripts
@@ -44,10 +44,10 @@ function feather_theme_scripts() {
 	}
 
 	// Latest compiled and minified Bootstrap JavaScript
-	wp_register_script( 'bootstrap', '//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js', array( 'jquery' ), '1.0.0', true );
+	wp_register_script( 'bootstrap', '//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js', array( 'jquery' ), '1.0.1', true );
 
 	// Custom Feather theme scripts
-	// wp_register_script( 'feather', get_template_directory_uri() . '/assets/js/scripts.js', array( 'bootstrap' ), '1.0.0', true );
+	// wp_register_script( 'feather', get_template_directory_uri() . '/assets/js/scripts.js', array( 'bootstrap' ), '1.0.1', true );
 
 	wp_enqueue_script('jquery');
 	wp_enqueue_script('bootstrap');
