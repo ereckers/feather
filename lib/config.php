@@ -18,4 +18,3 @@ define( 'ARCHIVE_WIDGET_LIMIT', 18 );		// Limit Number of Months in WordPress Ar
 add_theme_support( 'bootstrap-top-navbar' );	// Enable Roots Bootstrap top navbar
 add_theme_support( 'nice-search' );				// Enable /?s= to /search/ redirect
 add_theme_support( 'jquery-cdn' );				// Enable to load jQuery from the Google CDN
-

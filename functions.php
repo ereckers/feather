@@ -98,8 +98,10 @@ require get_template_directory() . '/lib/roots/cleanup.php';
 require get_template_directory() . '/lib/roots/titles.php';
 
 /**
- * Allow Text Widgets to execute shortcodes
+ * Register alternative (to Roots) Custom Navigation Walker
+ *
+ * https://github.com/twittem/wp-bootstrap-navwalker
+ *
  */
-//add_filter( 'widget_text', 'do_shortcode' );
-
+//require get_template_directory() . '/lib/wp_bootstrap_navwalker.php';
 

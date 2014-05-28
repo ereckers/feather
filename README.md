@@ -1,5 +1,7 @@
 # Feather
 
+A simple and easy responsive WordPress bootstrap3 starter theme from Red Bridge Internet.
+
 Feather is a WordPress starter theme based on Bootstrap and influenced by Roots and Underscores. Feather is simple and easy to use and employs the simplest implementations of Twitter's Bootstrap3, WordPress Codex, and libraries from the popular WordPress starter themes Roots and Underscores.
 
 This is very near to a WordPress skeleton theme. There are no wrappers, no rewriting, no advanced configurations, no init scripts, and it's not all that DRY.  You'll see familiar template files such as index, single, archive, and page, sidebars, a few widgets/sidebars, and a couple menus.

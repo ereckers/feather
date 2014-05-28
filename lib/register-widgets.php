@@ -1,5 +1,10 @@
 <?php
 /**
+ * Allow Text Widgets to execute shortcodes
+ */
+add_filter( 'widget_text', 'do_shortcode' );
+
+/**
  * Register widget areas.
  *
  * @return void
@@ -20,7 +25,7 @@ function feather_theme_widgets_init() {
 		'description'   => __( 'Sidebar for 2 column page templates.', THEME_TEXTDOMAIN ),
 		'before_widget' => '<section class="widget %1$s %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h3">',
+		'before_title'  => '<h3>',
 		'after_title'   => '</h3>',
 	) );
 }
