@@ -69,10 +69,8 @@ li.comment {
 }
 
 /*
- * WordPress Required
+ * WordPress Alignment
  */
-/* Alignment */
-
 .alignleft {
 	float: left;
 }
