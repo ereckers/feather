@@ -38,6 +38,10 @@ h1, h2, h3 {
 .sidebar {
 	padding-top: 25px;
 }
+
+/*
+ * Some Styling for WordPress Specific Elements
+ */
 .entry-meta .published,
 .entry-meta .byline.author {
 	padding-right: 12px;
@@ -45,12 +49,6 @@ h1, h2, h3 {
 .entry-meta {
 	margin-bottom: 15px;
 }
-#fullwidth-section {
-	padding: 25px;
-	background-color: #333;
-	color: #EDEDED;
-}
-
 li.comment {
 	padding: 15px;
 	border: 1px solid #EDEDED;
@@ -62,23 +60,16 @@ li.comment {
 	font-size: 13px;
 	color: #696969;
 }
-
 .author-description {
 	padding: 15px;
 	border: 1px solid #EDEDED;
 }
-
-/*
- * WordPress Alignment
- */
 .alignleft {
 	float: left;
 }
-
 .alignright {
 	float: right;
 }
-
 .aligncenter {
 	display: block;
 	margin-left: auto;
