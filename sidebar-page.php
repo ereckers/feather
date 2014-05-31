@@ -5,7 +5,7 @@
  * @package Feather
  */
 ?>
-<div id="secondary" class="widget-area" role="complementary">
+<div id="secondary" class="sidebar-page widget-area" role="complementary">
 	<?php if ( ! dynamic_sidebar( 'sidebar-page' ) ) : ?>
 
 		<aside id="search" class="widget widget_search">
