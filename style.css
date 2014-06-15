@@ -17,7 +17,7 @@
  * Copyright (c) 2014 Ed Reckers.  All rights reserved.
  * http://www.redbridgenet.com
  */
-body, html {
+body {
 	margin: 0 auto;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
