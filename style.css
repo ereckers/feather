@@ -17,13 +17,15 @@
  * Copyright (c) 2014 Ed Reckers.  All rights reserved.
  * http://www.redbridgenet.com
  */
+html {
+	/* put background stuff here for full viewport: body can go transparent */
+}
 body {
 	margin: 0 auto;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 	font-weight: 300;
 	font-family: 'Roboto', sans-serif;
-	text-rendering: optimizeLegibility;
 }
 h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
