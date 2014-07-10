@@ -23,7 +23,7 @@ function feather_theme_scripts() {
 	wp_enqueue_style( 'font-sans', '//fonts.googleapis.com/css?family=Roboto:100,300,500', array(), null );
 
 	// Font Awesome
-	//wp_enqueue_style( 'fontawesome', '//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css', array(), null );
+	//wp_enqueue_style( 'fontawesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css', array(), null );
 
 	// Load our main stylesheet.
 	wp_enqueue_style( 'main', get_stylesheet_uri(), false, '1.0.1' );
