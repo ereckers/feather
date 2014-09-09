@@ -64,7 +64,7 @@ Plugin Name | Description
 ------------ | -------------
 WordPress SEO | SEO, Breadcrumbs, Sitemap solution.
 Jetpack | Stats, subscriptions, carousel, related posts, sharing, contact form, widget visbility, custom css, shortcode embeds, extra sidebar widgets, monitor, enhanced distribution.
-WP Minify | JS and CSS concantenation and minification. https://wordpress.org/plugins/wp-minify/
+WP Minify Fix | A current Fork of WP Minify. JS and CSS concantenation and minification. http://wordpress.org/plugins/wp-minify-fix/
 WP Paginate | Pagination
 Custom Field Suite | Appears as (Field Groups) and allows for creating custom fields. Basic port of ACM with available repeatable fields functionality.
 Custom Content Type Manager | (Custom Content Types) post types (use field groups for custom fields).
