@@ -11,7 +11,7 @@ get_header(); ?>
 
 <div class="wrap container" role="document">
 
-	<?php get_template_part( 'templates/page', 'header' ); ?>
+	<?php get_template_part( 'template-parts/page', 'header' ); ?>
 
 	<div class="content row">
 

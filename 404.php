@@ -12,7 +12,7 @@ get_header(); ?>
 
 		<main class="main col-sm-8" role="main">
 
-			<?php get_template_part( 'templates/page', 'header' ); ?>
+			<?php get_template_part( 'template-parts/page', 'header' ); ?>
 
 			<div class="alert alert-warning">
 				<?php _e( 'Sorry, but the page you were trying to view does not exist.', THEME_TEXTDOMAIN ); ?>

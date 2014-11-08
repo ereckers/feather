@@ -11,7 +11,7 @@ get_header(); ?>
 	<div class="content row">
 
 		<main class="main col-sm-8" role="main">
-			<?php get_template_part( 'templates/content', 'single' ); ?>
+			<?php get_template_part( 'template-parts/content', 'single' ); ?>
 		</main><!--/ .main -->
 
 		<aside class="sidebar col-sm-4" role="complementary">

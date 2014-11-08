@@ -4,7 +4,7 @@
  *
  * @package Feather
  *
- * Template Name: Single Column Page
+ * Template Name: Page Single Column
  */
 
 get_header(); ?>
@@ -13,8 +13,8 @@ get_header(); ?>
 	<div class="content row">
 
 		<main class="main col-sm-12" role="main">
-			<?php get_template_part( 'templates/page', 'header' ); ?>
-			<?php get_template_part( 'templates/content', 'page' ); ?>
+			<?php get_template_part( 'template-parts/page', 'header' ); ?>
+			<?php get_template_part( 'template-parts/content', 'page' ); ?>
 		</main><!--/ .main -->
 
 	</div><!--/ .content .row -->

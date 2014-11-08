@@ -11,7 +11,7 @@
  */
 ?>
 	
-<?php get_template_part( 'templates/footer' ); ?>
+<?php get_template_part( 'template-parts/footer' ); ?>
 
 <?php wp_footer(); ?>
 </body>

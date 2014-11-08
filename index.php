@@ -26,14 +26,14 @@ get_header(); ?>
 		<?php endif; ?>
 
 		<?php if ( have_posts() ) : ?>
-			<?php get_template_part( 'templates/page', 'header' ); ?>
+			<?php get_template_part( 'template-parts/page', 'header' ); ?>
 		<?php endif; ?>
 
 		<?php while ( have_posts() ) : the_post(); ?>
-			<?php get_template_part( 'templates/content', get_post_format() ); ?>
+			<?php get_template_part( 'template-parts/content', get_post_format() ); ?>
 		<?php endwhile; ?>
 
-		<?php get_template_part( 'templates/pagination' ); ?>
+		<?php get_template_part( 'template-parts/pagination' ); ?>
 
 		</main><!--/ .main -->
 

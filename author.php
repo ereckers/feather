@@ -30,7 +30,7 @@ get_header(); ?>
 				printf( __( 'All posts by %s', THEME_TEXTDOMAIN ), get_the_author() );
 				?>
 				</h1>
-				<?php //get_template_part( 'templates/author-meta' ); ?>
+				<?php //get_template_part( 'template-parts/author-meta' ); ?>
 			</header><!-- .archive-header -->
 
 			<?php
@@ -49,15 +49,15 @@ get_header(); ?>
 			 * If you want to override this in a child theme, then include a file
 			 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
 			 */
-			get_template_part( 'templates/content', get_post_format() );
+			get_template_part( 'template-parts/content', get_post_format() );
 			?>
 
 			<?php endwhile; ?>
 
-			<?php get_template_part( 'templates/pagination' ); ?>
+			<?php get_template_part( 'template-parts/pagination' ); ?>
 
 		<?php else : ?>
-			<?php get_template_part( 'templates/content', 'none' ); ?>
+			<?php get_template_part( 'template-parts/content', 'none' ); ?>
 		<?php endif; ?>
 
 		</main><!--/ .main -->

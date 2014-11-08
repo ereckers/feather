@@ -4,13 +4,13 @@
  *
  * @package Feather
  *
- * Template Name: Full Width Container
+ * Template Name: Page Full Width
  */
 
 get_header(); ?>
 
 <div class="wrap" role="document">
-	<?php get_template_part( 'templates/content', 'page' ); ?>
+	<?php get_template_part( 'template-parts/content', 'page' ); ?>
 </div><!--/ .wrap .container -->
 
 <?php get_footer(); ?>
