@@ -29,7 +29,7 @@ class Roots_Walker_Comment extends Walker_Comment {
     extract($args, EXTR_SKIP); ?>
 
   <li id="comment-<?php comment_ID(); ?>" <?php comment_class('media comment-' . get_comment_ID()); ?>>
-    <?php include(locate_template('templates/comment.php')); ?>
+    <?php include(locate_template('template-parts/comment.php')); ?>
   <?php
   }
 
@@ -38,7 +38,7 @@ class Roots_Walker_Comment extends Walker_Comment {
       call_user_func($args['end-callback'], $comment, $args, $depth);
       return;
     }
-    // Close ".media-body" <div> located in templates/comment.php, and then the comment's <li>
+    // Close ".media-body" <div> located in template-parts/comment.php, and then the comment's <li>
     echo "</div></li>\n";
   }
 }
