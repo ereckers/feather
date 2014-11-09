@@ -22,16 +22,16 @@ This theme makes use of and the following frameworks, libraries, and resources:
 
 ### Template Files:
 
-This theme includes the following template files. The naming convention that we're following is to prepend custom templates with `template-`:
+This theme includes the following template files. We are using the WordPress naming conventions for template files.
 
 * archive.php
 * author.php
 * index.php
 * page.php
 * single.php
-* template-1col.php
-* template-fullwidth.php
-* template-sitemap.php
+* page-single-column.php
+* page-full-width.php
+* page-sitemap.php
 
 ### Widgets:
 
