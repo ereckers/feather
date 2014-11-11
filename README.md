@@ -64,10 +64,10 @@ Plugin Name | Description
 ------------ | -------------
 WordPress SEO | SEO, Breadcrumbs, Sitemap solution.
 Jetpack | Stats, subscriptions, carousel, related posts, sharing, contact form, widget visbility, custom css, shortcode embeds, extra sidebar widgets, monitor, enhanced distribution.
-WP Minify Fix | A current Fork of WP Minify. JS and CSS concantenation and minification. http://wordpress.org/plugins/wp-minify-fix/
-WP Paginate | Pagination
 Custom Field Suite | Appears as (Field Groups) and allows for creating custom fields. Basic port of ACM with available repeatable fields functionality.
 Custom Content Type Manager | (Custom Content Types) post types (use field groups for custom fields).
+WP Paginate | Pagination
+WP Minify Fix | A current Fork of WP Minify. JS and CSS concantenation and minification. http://wordpress.org/plugins/wp-minify-fix/
 
 ### Optional Plugins:
 
@@ -76,9 +76,10 @@ A documenation of plugins we have made use of to achieve certain requirements an
 Plugin Name | Description
 ------------ | -------------
 Gravity Forms | Forms creation. Requires a License to use and replaces Contact Form & (which is a great free option).
-Configure SMTP | SMTP Manager. For times in which your server does not provide a mail server.
-Google Analytics for WordPress | Google Analytics.
 Posts 2 Posts | Create many-to-many relationships between posts of any type.
+Post Types Order | Order posts and post types objects using a drag and drop interface.
+Google Analytics for WordPress | Plugin for implementing Google Analytics.
+Configure SMTP | SMTP Manager. For times in which your server does not provide a mail server.
 Members | A user, role, and content management plugin.
 WP Session Manager | Adds $_SESSION-like functionality to WordPress.
 
