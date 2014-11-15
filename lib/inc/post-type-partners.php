@@ -3,6 +3,7 @@
  * Setup Custom Post Types to register and optionally Taxonomies.
  *
  * @url http://codex.wordpress.org/Function_Reference/register_post_type
+ * @url http://codex.wordpress.org/Function_Reference/register_taxonomy
  *
  * @name Partners
  * @desc Custom post type for Job Descriptions on Partners page.
