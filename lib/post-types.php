@@ -18,5 +18,4 @@ function load_feather_post_types() {
 	include_once('inc/post-type-team.php');
 	include_once('inc/post-type-careers.php');
 	include_once('inc/post-type-partners.php');
-	include_once('inc/post-type-funders.php');
 }
