@@ -86,6 +86,11 @@ require get_template_directory() . '/lib/register-widgets.php';
 require get_template_directory() . '/lib/enqueue-scripts.php';
 
 /**
+ * Load custom post types
+ */
+//require get_template_directory() . '/lib/post-types.php';
+
+/**
  * Load Roots /lib Files
  *
  * https://github.com/roots/roots
