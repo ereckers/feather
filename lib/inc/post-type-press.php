@@ -2,6 +2,8 @@
 /**
  * Setup Custom Post Types to register and optionally Taxonomies.
  *
+ * @url http://codex.wordpress.org/Function_Reference/register_post_type
+ *
  * @name Press
  * @desc Custom post type for Press Releases.
  * @type Post
