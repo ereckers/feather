@@ -34,10 +34,23 @@ function feather_theme_setup() {
 	// Add RSS feed links to <head> for posts and comments.
 	add_theme_support( 'automatic-feed-links' );
 
-	// Enable support for Post Thumbnails, and declare two sizes.
+	/*
+	 * Enable support for Post Thumbnails, and declare two sizes.
+	 *
+	 * Recommended Media Settings > Image Sizes
+	 *
+	 * Thumbnail:  200x9999 (unset cropping)
+	 * Medium:     415x9999
+	 * Large:     1440x9999
+	*/
 	add_theme_support( 'post-thumbnails' );
-	// set_post_thumbnail_size( 150, 150, false );
-	// add_image_size( 'category-thumb', 300, 9999 ); // 300px wide (and unlimited height)
+	//set_post_thumbnail_size( 200, 9999, false );
+	// Finer control for Bootstrap Grid
+	/*
+	add_image_size( 'img-4col', 193, 9999 ); // span width of 4 column grid w/ unlimited height
+	add_image_size( 'img-3col', 267, 9999 ); // span width of 3 column grid w/ unlimited height
+	add_image_size( 'img-2col', 415, 9999 ); // span width of 2 column grid w/ unlimited height
+	*/
 
 	// Add post formats (http://codex.wordpress.org/Post_Formats)
 	// add_theme_support( 'post-formats', array( 'aside', 'gallery', 'link', 'image', 'quote', 'status', 'video', 'audio', 'chat' ) );
