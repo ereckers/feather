@@ -82,6 +82,7 @@ Google Analytics for WordPress | Plugin for implementing Google Analytics.
 Configure SMTP | SMTP Manager. For times in which your server does not provide a mail server.
 Members | A user, role, and content management plugin.
 WP Session Manager | Adds $_SESSION-like functionality to WordPress.
+RICG Responsive Images | Bringing automatic default responsive images to WordPress.
 
 ### Reference:
 
