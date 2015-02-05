@@ -77,3 +77,12 @@ li.comment {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+
+/**
+ * Clickable Parent Menu Items with Roots Theme and Twitter Bootstrap
+ * https://www.gaslampmedia.com/clickable-parent-menu-items-with-roots-theme-and-twitter-bootstrap/
+ */
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+	display: block;    
+}

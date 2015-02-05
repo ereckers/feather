@@ -60,6 +60,14 @@ function the_parent_slug() {
 }
 
 /**
+ * Get a clean URL for Featured Image that does not include height, width, etc..
+ */
+function get_clean_featured_image_url( $size = "thumbnail" ) {
+	$featured_image_array = wp_get_attachment_image_src( get_post_thumbnail_id(), $size, true );
+	return $featured_image_array[0];
+}
+
+/**
  * Wrap print_r in preformatted text tags
  *
  * @usage: print_pre($value)

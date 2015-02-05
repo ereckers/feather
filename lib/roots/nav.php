@@ -1,14 +1,6 @@
 <?php
 /**
  * Cleaner walker for wp_nav_menu()
- *
- * Walker_Nav_Menu (WordPress default) example output:
- *   <li id="menu-item-8" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8"><a href="/">Home</a></li>
- *   <li id="menu-item-9" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9"><a href="/sample-page/">Sample Page</a></l
- *
- * Roots_Nav_Walker example output:
- *   <li class="menu-home"><a href="/">Home</a></li>
- *   <li class="menu-sample-page"><a href="/sample-page/">Sample Page</a></li>
  */
 class Roots_Nav_Walker extends Walker_Nav_Menu {
   function check_current($classes) {
@@ -24,7 +16,8 @@ class Roots_Nav_Walker extends Walker_Nav_Menu {
     parent::start_el($item_html, $item, $depth, $args);
 
     if ($item->is_dropdown && ($depth === 0)) {
-      $item_html = str_replace('<a', '<a class="dropdown-toggle" data-toggle="dropdown" data-target="#"', $item_html);
+      //$item_html = str_replace('<a', '<a class="dropdown-toggle" data-toggle="dropdown" data-target="#"', $item_html);
+      $item_html = str_replace('<a', '<a class="dropdown-toggle" data-target="#"', $item_html);
       $item_html = str_replace('</a>', ' <b class="caret"></b></a>', $item_html);
     }
     elseif (stristr($item_html, 'li class="divider')) {

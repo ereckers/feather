@@ -88,6 +88,8 @@ RICG Responsive Images | Bringing automatic default responsive images to WordPre
 
 * <http://codex.wordpress.org/Theme_Development#Theme_Development_Standards>
 
+### TODO:
 
+* add Theme Options via Option Tree
 
 
