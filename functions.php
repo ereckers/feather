@@ -39,9 +39,9 @@ function feather_theme_setup() {
 	 *
 	 * Recommended Media Settings > Image Sizes
 	 *
-	 * Thumbnail:  200x9999 (unset cropping)
-	 * Medium:     415x9999
-	 * Large:     1440x9999
+	 * thumbnail:  200x9999 (unset cropping)
+	 * medium:     415x9999
+	 * large:     1440x9999
 	*/
 	add_theme_support( 'post-thumbnails' );
 	//set_post_thumbnail_size( 200, 9999, false );

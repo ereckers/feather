@@ -90,6 +90,11 @@ RICG Responsive Images | Bringing automatic default responsive images to WordPre
 
 ### TODO:
 
+* make framework even simpler by removing redundant template files (ie. page-2col)
+* if Comments are closed do not display _Leave a comment_
+* role in some recent modifications from client work
+  - blog list featured image
+  - notations for add_image_sizes
 * add Theme Options via Option Tree
 
 
