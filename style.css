@@ -51,6 +51,7 @@ h1, h2, h3 {
 .entry-meta {
 	margin-bottom: 15px;
 }
+li.pingback,
 li.comment {
 	padding: 15px;
 	border: 1px solid #EDEDED;
